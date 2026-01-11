@@ -1,139 +1,73 @@
-# 🌱 Agri-Spark Mentor
+# Welcome to your Lovable project
 
-**Agri-Spark Mentor** is a modern web-based application developed to assist farmers and agriculture enthusiasts by providing smart guidance and insights through a simple and user-friendly interface. The project focuses on using technology to improve awareness, decision-making, and accessibility in the agriculture domain.
+## Project info
 
-This project was developed as a **Minor Project** for the **Bachelor of Computer Applications (BCA), Batch 2026**.
+**URL**: https://lovable.dev/projects/59ca7c3c-73b9-41df-ad64-ec6a2c2ac6b7
 
----
+## How can I edit this code?
 
-## 📌 Problem Statement
+There are several ways of editing your application.
 
-Farmers often face challenges such as lack of timely information, limited access to digital tools, and difficulty in adopting modern agricultural practices.  
-**Agri-Spark Mentor** aims to address these challenges by providing a digital platform that delivers useful agricultural guidance in an easy and accessible manner.
+**Use Lovable**
 
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/59ca7c3c-73b9-41df-ad64-ec6a2c2ac6b7) and start prompting.
 
-## 🎯 Objectives
+Changes made via Lovable will be committed automatically to this repo.
 
-- To create a simple and interactive agriculture support platform  
-- To provide smart recommendations and guidance  
-- To improve accessibility of agricultural information  
-- To apply modern frontend development practices  
-- To build a real-world, industry-standard project  
+**Use your preferred IDE**
 
----
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-## 🚀 Features
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-- 🌾 Clean and responsive user interface  
-- 📊 Smart agricultural insights and guidance  
-- 💡 Easy navigation and intuitive design  
-- ⚙️ Built using modern frontend tools  
-- 🔐 Secure and scalable project structure  
+Follow these steps:
 
----
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-## 🛠️ Tech Stack
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-- **Frontend:** HTML, CSS, JavaScript  
-- **Framework:** React (Vite)  
-- **Styling:** CSS / Tailwind CSS  
-- **Package Manager:** npm  
-- **Version Control:** Git & GitHub  
+# Step 3: Install the necessary dependencies.
+npm i
 
----
-
-## 📂 Project Structure
-
-```
-agri-spark-mentor/
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── assets/
-│   └── App.jsx
-│
-├── .gitignore
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
-> `node_modules` is excluded intentionally as per industry best practices.
-
----
-
-## ⚙️ Installation & Setup
-
-Follow the steps below to run the project locally:
-
-```bash
-# Clone the repository
-git clone https://github.com/USERNAME/agri-spark-mentor.git
-
-# Navigate to the project directory
-cd agri-spark-mentor
-
-# Install dependencies
-npm install
-
-# Start the development server
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-📍 Application runs on:
-```
-http://localhost:5173/
-```
+**Edit a file directly in GitHub**
 
----
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## 📸 Screenshots
+**Use GitHub Codespaces**
 
-Screenshots of the application interface can be added here to showcase UI and functionality.
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
----
+## What technologies are used for this project?
 
-## 🧠 Learning Outcomes
+This project is built with:
 
-- Hands-on experience with **React & Vite**
-- Understanding of **real-world project structure**
-- Improved frontend development skills
-- Practical use of **Git & GitHub**
-- Knowledge of industry best practices  
-- Improved debugging and problem-solving skills  
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
----
+## How can I deploy this project?
 
-## 🔮 Future Enhancements
+Simply open [Lovable](https://lovable.dev/projects/59ca7c3c-73b9-41df-ad64-ec6a2c2ac6b7) and click on Share -> Publish.
 
-- 🤖 AI-based crop recommendation system  
-- 🌦️ Weather-based insights  
-- 📱 Enhanced mobile responsiveness  
-- 🌐 Backend and database integration  
-- 📈 Data visualization and analytics  
+## Can I connect a custom domain to my Lovable project?
 
----
+Yes, you can!
 
-## 👨‍🎓 Author
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-**Ganesh Kumar Singh**  
-BCA Student | Batch 2026  
-
-📧 Email: ganeshkumar9043@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/ganesh-kumar-singh21/
-
----
-
-## 📜 License
-
-This project is developed **for educational purposes** and can be used for learning and academic reference.
-
----
-
-## ✅ Interview Ready Explanation
-
-**Why is `node_modules` not uploaded?**  
-Dependencies can be recreated using `npm install`. Excluding `node_modules` keeps the repository clean, lightweight, and professional.
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
